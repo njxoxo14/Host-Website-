@@ -1,39 +1,46 @@
-h1{ 
-color:white;  
-padding:20px;
+h1 {
+    color: black;
+    padding: 20px;
 }
 
-#body{
-background-color:blue;
-height:750px;
-width:1100px;
-margin:0 auto;
-border-radius:40px;
+#body {
+    background-image: url("http://images6.fanpop.com/image/photos/36100000/Christmas-image-christmas-36118465-1920-1200.jpg");
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 40px;
 }
-#showcase{
+
+#showcase {
     background-color: black;
-    height:300px;
-    width:600px;
-    display:block;
-    margin:0 auto;
+    /*height: 300px;
+    width: 600px;
+    */
+    margin: 0 auto;
 }
-.gameShowcase{
-  height:150px;
-    width:210px;
+
+.col-md-8 {
+    position: relative;
 }
-    
-#gameOne{
+
+#gameOne {
     background-color: red;
-    margin-left:255px;
-    margin-top:10px;
+    margin-left: 255px;
+    margin-top: 10px;
+   /* height: 150px;
+    width: 210px;
+    */
 }
-#gameTwo{
+
+#gameTwo {
     background-color: yellow;
 }
 
-#chat{
-    display: block;
+#chat {
+    
 }
-body{
+
+body {
     background-color: gray;
 }
