@@ -25,6 +25,7 @@ h1 {
 #gameOne {
     background-color: red;
    height: 150px;
+   display: block;
     
 }
 
