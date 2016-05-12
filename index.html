@@ -15,6 +15,7 @@ To upload code to GitHub do the following:
     </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
     <link rel="stylesheet" href="sprinkles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="buttercup.js"></script>
 </head>
 
@@ -22,7 +23,6 @@ To upload code to GitHub do the following:
     <div id="body" class="container">
         <div id="header">
             <h1 align="center" class="row">Header</h1>
-            <button id="info">INFO</button>
         </div>
         <div id="all" class="row">
             <div id="stuff" class="col-sm-8">
@@ -34,11 +34,14 @@ To upload code to GitHub do the following:
                 <div class="row">
                     <div class="col-sm-4" id="gameOne">
                         Show gameOne
-                        <a href = "www.facebook.com"></a>
+                        <a href="www.facebook.com">
+                            <img src="http://www.laminaresearchcenter.com/images/comingsoon.png"
+                            style= "height:150px">
+                        </a>
                     </div>
                     <div class="col-sm-4" id="gameTwo">
                         Show gameTwo
-                        <a href = "www.youtube.com" </a>
+                        <a href="www.youtube.com"></a>
                     </div>
                     <div class="col-sm-4" id="gameThree">
                         Show gameThree
@@ -46,7 +49,9 @@ To upload code to GitHub do the following:
                 </div>
             </div>
             <div id="chat" class="col-md-4">
-                <p>Have chat that moves with user</p>
+                <textarea disabled id="chatbox"></textarea>
+                <input type="text" id="enter"></input>
+                <button id="chatsubmit">Enter</button>
             </div>
         </div>
     </div>

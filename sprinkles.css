@@ -4,19 +4,17 @@ h1 {
 }
 
 #body {
-    background-image: url("http://images6.fanpop.com/image/photos/36100000/Christmas-image-christmas-36118465-1920-1200.jpg");
-    background-color: blue;
+    background-color: white;
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    border-radius: 40px;
+    border-radius:;
 }
 
 #showcase {
     background-color: black;
-    /*height: 300px;
-    width: 600px;
-    */
+    height: 300px;
+    
     margin: 0 auto;
 }
 
@@ -26,17 +24,18 @@ h1 {
 
 #gameOne {
     background-color: red;
-   /* height: 150px;
-    width: 210px;
-    */
+   height: 150px;
+    
 }
 
 #gameTwo {
     background-color: yellow;
+    height:150px;
 }
 
 #gameThree {
     background-color: blue;
+    height:120px;
 }
 
 #chat {
@@ -46,3 +45,5 @@ h1 {
 body {
     background-color: gray;
 }
+
+/* Yo ok so I got a basic chat going. Question, do you still have the webpage from last year? The one on Nitrous? Mine got deleted*/ 
