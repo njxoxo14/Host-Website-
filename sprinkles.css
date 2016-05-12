@@ -26,8 +26,6 @@ h1 {
 
 #gameOne {
     background-color: red;
-    margin-left: 255px;
-    margin-top: 10px;
    /* height: 150px;
     width: 210px;
     */
@@ -35,6 +33,10 @@ h1 {
 
 #gameTwo {
     background-color: yellow;
+}
+
+#gameThree {
+    background-color: blue;
 }
 
 #chat {
