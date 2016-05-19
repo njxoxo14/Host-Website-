@@ -3,19 +3,17 @@ h1 {
     padding: 20px;
 }
 
-#body {
-    background-color: white;
+body {
+    background-color: pink;
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    border-radius:;
 }
 
 #showcase {
     background-color: black;
     height: 300px;
-    
-    margin: 0 auto;
+/*    margin-left: 20px;*/
 }
 
 .col-md-8 {
@@ -25,7 +23,7 @@ h1 {
 #gameOne {
     background-color: red;
    height: 150px;
-   display: block;
+   /* display: block; */
     
 }
 
@@ -36,15 +34,18 @@ h1 {
 
 #gameThree {
     background-color: blue;
-    height:120px;
+    height:150px;
 }
 
 #chat {
-    
+    display: block;
+}
+#chatbox{
+    height:420px;
+    resize: none;
 }
 
-body {
-    background-color: gray;
-}
 
-/* Yo ok so I got a basic chat going. Question, do you still have the webpage from last year? The one on Nitrous? Mine got deleted*/ 
+p{
+    color:black;
+}
